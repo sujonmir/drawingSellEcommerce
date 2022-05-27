@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins',
+    sans-serif !important;
+}
+/* .container{
+    max-width: 1188px!important;
+    padding: 0px!important;
+} */
+
+
+.logo__text.heading-1{
+    color: #333333;
+    font-size: 1.6em;
+    display: block;
+}
+.logo__text.heading-2{
+        font-weight: 500;
+        color: #333333;
+        font-size: 12px;
+}
+.pp-Contact-text{
+    color: #333333;
+    font-size: 20px;
+    line-height: 1.3em;
+}
+.pp-Already-text{
+    color: #545454;
+    font-size: 14px;
+}
+.pp-Already-text a{
+    padding-left: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #249861;
+}
+
+.checkout-form input,
+.checkout-form select {
+    background-color: white;
+    color: #737373;
+    border: 1px #d9d9d9 solid;
+    font-size: 13px;
+    background-clip: padding-box;
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 42px;
+}
+.checkout-form input:focus,
+.checkout-form select:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: #2bb573;
+    box-shadow: 0 0 0 1px #2bb573;
+}
+
+.checkout-form .form-check-input{
+    border-color: #d9d9d9;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 0;
+    border-radius: 4px;
+    width: 18px;
+    height: 18px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    vertical-align: -4px;
+    border: 1px solid;
+    margin-right: 10px;
+}
+.form-check-label{
+    color: #545454;
+    /* display: table-cell; */
+    width: 100%;
+    font-size: 13px;
+    line-height: 28px;
+    margin-left: 10px!important;
+}
+
+
+.checkout-btn{
+    cursor: pointer;
+    display: block;
+    background-color: #2bb573;
+    box-sizing: border-box;
+    border: 1px transparent solid;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+.checkout-btn:hover{
+    color: white;
+    background-color: #249861;
+}
+.policy-list{
+    padding: 1em 0;
+    border-top: 1px solid #e6e6e6;
+    list-style-type: none;
+}
+.policy-list .policy-list__item {}
+.policy-list .policy-list__item a {
+    color: #249861;
+    transition: color 0.2s ease-in-out;
+    font-size: 12px;
+    margin-right: 1.5em;
+    margin-bottom: 0.5em;
+    text-decoration: none;
+}
+
+#email-text,
+#lastname-text,
+#address-text,
+#city-text,
+#postcode-text{
+    display: block;
+    color: #e32c2b;
+    line-height: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product-first img{
+    border-radius: 8px;
+    background: #fff;
+    position: relative;
+    border: 1px solid rgba(193 191 191 / 90%);
+}
+.product-first .pp-top-left{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.75em;
+    text-align: center;
+    border-radius: 1.75em;
+    background-color: rgba(114, 114, 114, 0.9);
+    
+    color: #fff;
+    box-sizing: border-box;
+    width: 1.75em;
+    height: 1.75em;
+    padding: 0 0.5833333333em;
+    position: absolute;
+    right: 6px;
+    top: -8px;
+    z-index: 3;
+}
+.product-first .product_description_name{
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+.product-first .pp-price-y{
+    color: #717171;
+    font-size: 12px;
+}
+.product-first .pp-price-x{}
+.gift-card-wrapper .gift-box {
+    transition: all 0.2s ease-out;
+    background-color: white;
+    color: #333333;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 70%;
+    z-index: 100;
+}
+.gift-card-wrapper .gift-box:focus{
+    outline: none;
+    border: 1px solid #2bb573;
+    box-shadow: 0 0 0 1px #2bb573;
+}
+.gift-card-wrapper .gift-btn{
+    transition: opacity 0.3s ease-in-out;
+    background: #c8c8c8;
+    box-shadow: none;
+    width: 26%;
+    margin-left: 0.8571428571em;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px transparent solid
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    transition: background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out,
+    -webkit-box-shadow 0.2s ease-in-out;
+}
+.gift-card-wrapper .gift-btn:focus{
+    outline: none;
+}
+.total-line-table{
+    border-top: 1px solid rgba(175, 175, 175, 0.34);
+}
+.total-line-table-text1 {
+    border-top: 1px solid rgba(175, 175, 175, 0.34);
+    padding-top: 10px;
+}
+.total-line-table p{
+    color: #535353;
+    font-size: 13px;
+
+}
+.pp-font{
+    font-size: 20px!important;
+    color: #323232!important;
+}

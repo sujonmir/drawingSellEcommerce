@@ -1,0 +1,125 @@
+
+.pp-registerheading {
+    text-align: center !important;
+    font-family: 'Poppins',
+        sans-serif !important;
+    font-size: 2.1875em;
+    text-transform: none;
+    letter-spacing: 0;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0 0 17.5px;
+    color: #252729;
+}
+
+.form-error-mess {
+    width: 100%;
+    border: 1px solid #d20000;
+    background-color: #fff8f8;
+    /* background-color: hsl(115, 51%, 78%); */
+    padding: 1rem 1.3rem;
+    margin: 0 0 27.5px;
+    display: none;
+}
+
+.form-error-mess>h2 {
+    font-size: 1.2em;
+    font-family: 'Poppins',
+        sans-serif !important;
+    text-align: center;
+    padding-bottom: 47px;
+    font-weight: 600;
+    color: #252729;
+    position: relative;
+}
+.form-error-mess>h2::before{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 2px;
+    background: #736a6a;
+    top: 10px;
+    transform: translate(-90px, 3px);
+}
+.form-error-mess>h2::after{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 2px;
+    background: #736a6a;
+    top: 10px;
+    transform: translate(10px, 4px);
+}
+
+.form-error-mess>ul li .error-message{
+    font-size: 16px;
+    font-family: 'Poppins',
+    sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    color: #3d4246;
+    line-height: 1.5;
+}
+.wrapper-register .pp-loginheading {
+    font-size: 2.1875em;
+    text-transform: none;
+    letter-spacing: 0;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.wrapper-register .pp-label {
+    cursor: pointer;
+    display: block;
+    margin-bottom: 5px;
+    touch-action: manipulation;
+    font-size: 16px;
+    font-family: 'Poppins',
+        sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    color: #3d4246;
+    line-height: 1.5;
+}
+
+.wrapper-register .pp-inputbox {
+    display: block;
+    width: 100%;
+    margin-bottom: 19.44444px;
+    border: 1px solid #ccc;
+    padding: 10px 18px;
+    font-family: 'Poppins',
+        sans-serif !important;
+}
+
+.wrapper-register .pp-inputbox:focus {
+    outline: none;
+}
+
+.pp-form .pp-fgca {
+    color: #25282b;
+    font-size: 15px;
+    font-family: "Poppins",
+    sans-serif;
+    line-height: 24px;
+    font-weight: 300;
+    display: block;
+    text-decoration: none;
+    margin: 0 0 19.44444px;
+}
+.pp-form .pp-fgcaa{
+    margin: 0;
+    margin-top: 19.44444px;
+}
+.submit{
+    color: #fff;
+    background-color: #218c59;
+    padding: 10px 18px;
+    outline: none;
+    border: none;
+}
+.submit:focus{
+    outline: none;
+}

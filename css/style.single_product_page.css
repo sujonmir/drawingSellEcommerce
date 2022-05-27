@@ -1,0 +1,163 @@
+
+
+/* img{
+	width: 100%;
+	display: block;
+} */
+.detail-img img{
+	width: 100%;
+	display: block;
+}
+
+header{
+	background-image: url('../img/banner.jpg');
+	background-position: center;
+	background-size: cover;
+	padding: 50px;
+}
+
+header h3{
+	text-align: center;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	list-style-type: none;
+}
+p{
+	color: #69727B;
+	font-size: 18px;
+}
+h6{
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.header-left h3{
+	font-weight: 700;
+}
+.header-right h3{
+	color: #fff;
+}
+
+
+
+
+
+.detail-area{}
+
+.menu ul li a{
+	display: block;
+	padding: 5px 2px;
+	color: #5B6063;
+	font-size: 20px;
+	font-weight: 600;
+}
+.menu ul li a i{
+	font-size: 10px;
+}
+.menu ul li a:hover{}
+.detail-img ul li{
+	float: left;
+	margin: 0 10px;
+}
+.detail-img ul li img{
+	display: block;
+	width: 115px;
+}
+
+.detail-img .big_img{
+	margin-bottom: 20px;
+}
+
+/*  detail review  */
+
+.detail-review{}
+.detail-review ul{}
+.detail-review ul li{}
+.detail-review ul li a{}
+.detail-review ul li a i{
+	color: #000000;
+	font-size: 15px;
+}
+.detail-review ul li a span{
+	margin-left: 5px;
+	color: #535658;
+	font-size: 20px;
+}
+
+/*  detail amount  */
+
+.detail-amount{}
+.detail-amount h3{
+	font-weight: 700;
+	color: #2BB673;
+}
+
+.detail-step{}
+.detail-step ul{
+	padding-left: 40px;
+}
+.detail-step ul li{
+	list-style-type: decimal;
+
+}
+
+form button{
+	font-size: 18px;
+	font-weight: 700;
+}
+.img-button button{
+	background-color: #00A3F0;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+}
+.cart-button button{
+	background-color: #2BB673;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+}
+
+
+/*  discription-review-area  */
+
+.discription-review-area{
+	padding: 50px 0;
+}
+.discription-review-area ul{}
+.discription-review-area ul li{
+	padding: 0 10px;
+	font-size: 20px;
+	font-weight: 600;
+
+}
+.discription-review-area ul li a{
+	color: #000000;
+}
+.discription-review-area ul li a:hover{
+	color: #2BB673;
+}
+.discription-review-area hr{
+	background-color:  #2BB673;
+}
+
+.discription-review-area span{
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.discription-content{
+	padding: 10px 0;
+}
+.discription-content{}
+
+.small_img:hover{
+	border: 1px solid #FF4747;
+}
